@@ -8,7 +8,7 @@ def index(request):
     querystring = {"country": "India"}
     headers = {
         'x-rapidapi-host': "covid-193.p.rapidapi.com",
-        'x-rapidapi-key': "88aaa12733mshb20c46d202fe0a6p108a23jsn0cf39c257d7b"
+        'x-rapidapi-key': "REPLACE KEY"
     }
 
     response = requests.request(
